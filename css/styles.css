@@ -1,0 +1,49 @@
+/*
+    footer
+*/
+
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section{
+    padding: 15px;
+}
+
+footer section:nth-of-type(1){
+    width: 600px;
+}
+
+footer section:nth-of-type(2) ul li a,footer section:nth-of-type(3) ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+footer section:nth-of-type(2) ul li,footer section:nth-of-type(3) ul li {
+    padding: 5px;
+}
+
+
+footer section:not(footer section:nth-of-type(1)){
+    width: 400px;
+}
+footer section ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social i{
+    color: black;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+}
